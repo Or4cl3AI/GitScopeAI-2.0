@@ -1,0 +1,53 @@
+```css
+.deploymentFoldersContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.deploymentFoldersTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.deploymentFolder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.deploymentFolderIcon {
+    margin-right: 10px;
+}
+
+.deploymentFolderName {
+    font-size: 18px;
+}
+
+.deploymentFolderActions {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.deploymentFolderActionButton {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deploymentFolderActionButton:hover {
+    opacity: 0.8;
+}
+
+.deploymentFolderActionButton:active {
+    opacity: 0.6;
+}
+```

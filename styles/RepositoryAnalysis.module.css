@@ -1,0 +1,51 @@
+```css
+.repositoryAnalysisContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    background-color: #f5f5f5;
+}
+
+.repositoryAnalysisTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.repositoryAnalysisContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.repositoryAnalysisItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.repositoryAnalysisItem:last-child {
+    border-bottom: none;
+}
+
+.repositoryAnalysisItemKey {
+    font-size: 16px;
+    color: #333;
+}
+
+.repositoryAnalysisItemValue {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+```

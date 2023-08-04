@@ -1,0 +1,42 @@
+```css
+.readmeRequirementsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #f5f5f5;
+}
+
+.readmeRequirementsTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.readmeRequirementsContent {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.readmeRequirementsButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070f3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.readmeRequirementsButton:hover {
+    background-color: #0051bb;
+}
+```
