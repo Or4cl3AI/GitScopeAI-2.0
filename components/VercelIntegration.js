@@ -1,4 +1,3 @@
-```javascript
 import React from 'react';
 
 const VercelIntegration = ({ vercelConfig }) => {
@@ -31,4 +30,3 @@ const VercelIntegration = ({ vercelConfig }) => {
 };
 
 export default VercelIntegration;
-```
