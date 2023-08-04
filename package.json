@@ -1,0 +1,32 @@
+{
+  "name": "gitscopeai",
+  "version": "1.0.0",
+  "description": "A Next.js web application for analyzing GitHub repositories and generating high-quality code snippets.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "vercel",
+    "code generation",
+    "github",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest"
+  }
+}

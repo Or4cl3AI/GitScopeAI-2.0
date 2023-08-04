@@ -1,0 +1,32 @@
+```css
+.crossPlatformContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.crossPlatformTitle {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.crossPlatformContent {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.crossPlatformImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
+```

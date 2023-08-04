@@ -1,0 +1,49 @@
+```css
+.aiSuggestionsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.aiSuggestionsTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.aiSuggestionsContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.suggestionItem:last-child {
+    border-bottom: none;
+}
+
+.suggestionText {
+    font-size: 1em;
+    color: #666;
+}
+
+.suggestionAction {
+    color: #0070f3;
+    cursor: pointer;
+}
+
+.suggestionAction:hover {
+    text-decoration: underline;
+}
+```
