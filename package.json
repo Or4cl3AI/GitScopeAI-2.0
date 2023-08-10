@@ -4,7 +4,7 @@
   "description": "A Next.js web application for analyzing GitHub repositories and generating high-quality code snippets.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p src",
     "build": "next build",
     "start": "next start"
   },
