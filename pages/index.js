@@ -1,20 +1,19 @@
-```javascript
 import Head from 'next/head'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import RepositoryAnalysis from '../components/RepositoryAnalysis'
-import CodeSnippetGeneration from '../components/CodeSnippetGeneration'
-import AISuggestions from '../components/AISuggestions'
-import ChatSystem from '../components/ChatSystem'
-import PersonalizedRecommendations from '../components/PersonalizedRecommendations'
-import ProjectFolderStructure from '../components/ProjectFolderStructure'
-import ReadmeRequirements from '../components/ReadmeRequirements'
-import DeploymentFolders from '../components/DeploymentFolders'
-import VercelIntegration from '../components/VercelIntegration'
-import UserInterface from '../components/UserInterface'
-import CrossPlatform from '../components/CrossPlatform'
-import TutorialsHelp from '../components/TutorialsHelp'
-import AIMachineLearning from '../components/AIMachineLearning'
+import Header from '../src/components/Header'
+import Footer from '../src/components/Footer'
+import RepositoryAnalysis from '../src/components/RepositoryAnalysis'
+import CodeSnippetGeneration from '../src/components/CodeSnippetGeneration'
+import AISuggestions from '../src/components/AISuggestions'
+import ChatSystem from '../src/components/ChatSystem'
+import PersonalizedRecommendations from '../src/components/PersonalizedRecommendations'
+import ProjectFolderStructure from '../src/components/ProjectFolderStructure'
+import ReadmeRequirements from '../src/components/ReadmeRequirements'
+import DeploymentFolders from '../src/components/DeploymentFolders'
+import VercelIntegration from '../src/components/VercelIntegration'
+import UserInterface from '../src/components/UserInterface'
+import CrossPlatform from '../src/components/CrossPlatform'
+import TutorialsHelp from '../src/components/TutorialsHelp'
+import AIMachineLearning from '../src/components/AIMachineLearning'
 
 export default function Home() {
   return (
@@ -44,4 +43,3 @@ export default function Home() {
     </div>
   )
 }
-```

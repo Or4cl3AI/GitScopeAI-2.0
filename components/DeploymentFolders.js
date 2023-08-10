@@ -1,4 +1,3 @@
-```javascript
 import React from 'react';
 
 const DeploymentFolders = ({ deploymentFolders }) => {
@@ -32,19 +31,18 @@ async function createDeploymentFolders() {
   // This is a placeholder for the actual implementation
   return [
     {
-      name: 'Frontend Folder',
+      name: 'src/Frontend Folder',
       description: 'This folder contains all the frontend code.',
     },
     {
-      name: 'Backend Folder',
+      name: 'src/Backend Folder',
       description: 'This folder contains all the backend code.',
     },
     {
-      name: 'Communication Folder',
+      name: 'src/Communication Folder',
       description: 'This folder contains the code for communication between frontend and backend.',
     },
   ];
 }
 
 export default DeploymentFolders;
-```
