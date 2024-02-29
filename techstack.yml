@@ -2,7 +2,7 @@ repo_name: Or4cl3AI/GitScopeAI-2.0
 report_id: 14cfdb64d541a50d6f1155e4c1ffb206
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:34:39+00:00'
+timestamp: '2024-02-29T18:53:20+00:00'
 requested_by: Or4cl3AI
 provider: github
 branch: main
@@ -43,7 +43,7 @@ tools:
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-08-04 04:20:13.000000000 Z
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   open_source: true
   hosted_saas: false
